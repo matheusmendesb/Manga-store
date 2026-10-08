@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MangaStore - Naruto</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+    <header>
+        <h1>MangaStore</h1>
+        <p>Seu universo de mangás em um só lugar!</p>
+    </header>
+    <nav>
+        <a href="../index.php">Início</a>
+        <a href="mangas.html">Mangás</a>
+        <a href="../PHP/contato.php">Contato</a>
+        <button id="theme-toggle" class="theme-toggle-btn">Modo Escuro</button>
+    </nav>
+    <main>
+        <section class="produto-detalhe">
+            <div class="produto-imagem">
+                <img src="../img/naruto.webp" alt="Capa do mangá Naruto">
+            </div>
+            <div class="produto-info">
+                <h2>Naruto - Vol. 01</h2>
+                <p class="produto-autor"><strong>Autor:</strong> Masashi Kishimoto</p>
+                <p class="produto-status">Em Estoque</p>
+                <div class="produto-preco">R$ 27,90</div>
+                <div class="produto-qtd">
+                    <label for="quantidade">Quantidade:</label>
+                    <input type="number" id="quantidade" value="1" min="1" max="10">
+                </div>
+                <div class="produto-botoes">
+                    <button class="btn-comprar">Comprar Agora</button>
+                    <button class="btn-carrinho">Adicionar ao Carrinho</button>
+                </div>
+                <div class="produto-sinopse">
+                    <h3>Sinopse</h3>
+                    <p>Naruto Uzumaki é um jovem ninja rejeitado por carregar o espírito da Raposa de Nove Caudas. Ele treina incansavelmente para superar os desafios, conquistar o respeito da Vila da Folha e se tornar Hokage.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="../JS/script.js"></script>
+</body>
+</html>

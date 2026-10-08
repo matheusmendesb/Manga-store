@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MangaStore - One Piece</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+    <header>
+        <h1>MangaStore</h1>
+        <p>Seu universo de mangás em um só lugar!</p>
+    </header>
+    <nav>
+        <a href="../index.php">Início</a>
+        <a href="mangas.html">Mangás</a>
+        <a href="../PHP/contato.php">Contato</a>
+        <button id="theme-toggle" class="theme-toggle-btn">Modo Escuro</button>
+    </nav>
+    <main>
+        <section class="produto-detalhe">
+            <div class="produto-imagem">
+                <img src="../img/onepiece.webp" alt="Capa do mangá One Piece">
+            </div>
+            <div class="produto-info">
+                <h2>One Piece - Vol. 01</h2>
+                <p class="produto-autor"><strong>Autor:</strong> Eiichiro Oda</p>
+                <p class="produto-status">Em Estoque</p>
+                <div class="produto-preco">R$ 29,90</div>
+                <div class="produto-qtd">
+                    <label for="quantidade">Quantidade:</label>
+                    <input type="number" id="quantidade" value="1" min="1" max="10">
+                </div>
+                <div class="produto-botoes">
+                    <button class="btn-comprar">Comprar Agora</button>
+                    <button class="btn-carrinho">Adicionar ao Carrinho</button>
+                </div>
+                <div class="produto-sinopse">
+                    <h3>Sinopse</h3>
+                    <p>Monkey D. Luffy é um jovem que deseja se tornar o Rei dos Piratas. Após comer acidentalmente uma Fruta do Diabo, ganha um corpo de borracha. Ao lado de sua tripulação, ele navega pelos mares perigosos em busca do tesouro One Piece.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="../JS/script.js"></script>
+</body>
+</html>
